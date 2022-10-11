@@ -13,12 +13,12 @@ X(n)
 #include <stdlib.h>
 #include <time.h>
 
-void obliczenia(float, float, float, int);
+void obliczenia(float, float, int);
 int validate(float);
 
 int main() {
-  int x = 0, n = 0;
-  float a = 0;
+  int n = 0;
+  float a = 0, x = 0;
   do {
     printf("wprowadz liczba a=");
     scanf(" %f", &a);
@@ -27,11 +27,11 @@ int main() {
     float X[n];
     for (int i = 0; i < n; i++) {
       printf("wprowadz liczba X(%d)=", i + 1);
-      scanf(" %d", &x);
+      scanf(" %.1f", &x);
       X[i] = x;
     }
-  } while (1 != validate(*X[], a, n));
-  obliczenia(*X[], a, n);
+  } while (1 != validate(X, a, n));
+  obliczenia(X, a, n);
   return 0;
 }
 
@@ -45,9 +45,9 @@ int validate(float a) {
   }
 }
 
-void obliczenia(float *X[], float a, float hx, int xn) {
-  float y;
-  while (x <= xn) {
+void obliczenia(float *X[], float a, int n) {
+  float y,x;
+  while (x <= n) {
     printf("x=%.1f a=%.1f ", x, a);
     y = a * pow(x, 2);
     x = x + hx;
