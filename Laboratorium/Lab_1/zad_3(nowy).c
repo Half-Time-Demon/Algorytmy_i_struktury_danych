@@ -2,59 +2,52 @@
 Daniel Trojko, Student
 * -----------------
  Laboratorium 1. Zadanie przyklad
- Obliczyc funkcja y = ax^2 znaczenia, gdy a - stale. x - zmieniase z x0 do xn,
-krokiem hx
+ Obliczyc funkcja y = ax^2 znaczenia, gdy a - stale, x jest wybierany z tablicy
+X(n)
 * -----------------
 2022-10-11
 */
+// gcc zad_3.c -o Zad_3 -lm
 
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
-void obliczenia(float, float, float, int);
-int validate(float, float, float, int);
+int validate(float);
+float X[];
 
 int main() {
-  int x = 0, xn = 0;
-  float a = 0, hx = 0;
+  int n = 0, i = 0;
+  float a = 0, x = 0, y;
   do {
     printf("wprowadz liczba a=");
     scanf(" %f", &a);
-    printf("wprowadz liczba x=");
-    scanf(" %d", &x);
-    printf("wprowadz liczba hx=");
-    scanf(" %f", &hx);
-    printf("wprowadz liczba nx=");
-    scanf(" %d", &xn);
-  } while (1 != validate(x, a, hx, xn));
-  obliczenia(x, a, hx, xn);
+    printf("rozmiar tablicy n=");
+    scanf(" %d", &n);
+    float X[n];
+    for (int i = 0; i < n; i++) {
+      printf("wprowadz liczba X(%d)=", i + 1);
+      scanf("%f", &x);
+      X[i] = x;
+    }
+  } while (1 != validate(a));
+
+  while (i <= n) {
+    printf("iteracja %d: x=%.1f a=%.1f ", i + 1, X[i], a);
+    y = a * pow(X[i], 2);
+    printf("y=%.1f\n", y);
+    i++;
+  }
   return 0;
 }
 
-int validate(float x, float a, float hx, int xn) {
-  if (x <= xn) {
-    printf("something wrong\n");
-    return 0;
-  } else if (a == 0) {
-    printf("something wrong\n");
-    return 0;
-  } else if (hx + x > xn) {
+int validate(float a) {
+  if (a == 0) {
     printf("something wrong\n");
     return 0;
   } else {
     printf("OK\n");
     return 1;
-  }
-}
-
-void obliczenia(float x, float a, float hx, int xn) {
-  float y;
-  while (x <= xn) {
-    printf("x=%.1f a=%.1f ", x, a);
-    y = a * pow(x, 2);
-    x = x + hx;
-    printf("y=%.1f\n", y);
   }
 }
