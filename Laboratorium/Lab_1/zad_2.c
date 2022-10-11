@@ -19,7 +19,7 @@ int validate(float, float, float, int);
 int main() {
   int x = 0, xn = 0;
   float a = 0, hx = 0;
-  while (1 != validate(x, a, hx, xn)) {
+  do{
     printf("wprowadz liczba a=");
     scanf(" %f", &a);
     printf("wprowadz liczba x=");
@@ -28,7 +28,7 @@ int main() {
     scanf(" %f", &hx);
     printf("wprowadz liczba nx=");
     scanf(" %d", &xn);
-  }
+  }while (1 != validate(x, a, hx, xn));
   obliczenia(x, a, hx, xn);
   return 0;
 }
