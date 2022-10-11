@@ -15,13 +15,12 @@ X(n)
 #include <time.h>
 
 int validate(float);
-// float X[];
 
 int main() {
   int n = 0;
   float a = 0, x = 0, y;
 
-   do {
+  do {
     printf("Podaj stala a=");
     scanf("%f", &a);
   } while (a == 0);
@@ -32,12 +31,12 @@ int main() {
   } while (n < 0);
 
   float X[n];
+  
   for (int i = 0; i < n; i++) {
     printf("wprowadz liczba X(%d)=", i + 1);
     scanf("%f", &x);
     X[i] = x;
   }
-  
 
   for (int i = 0; i < n; i++) {
     printf("iteracja %d: x=%.1f a=%.1f ", i + 1, X[i], a);
