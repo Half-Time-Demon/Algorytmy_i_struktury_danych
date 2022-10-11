@@ -7,25 +7,25 @@ X(n)
 * -----------------
 2022-10-11
 */
+// gcc zad_3.c -o Zad_3 -lm
 
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
-void obliczenia(float, float, int);
-int validate(float);
-
 float X;
+void obliczenia(float X[], float a, int n);
+int validate(float);
 
 int main() {
   int n = 0;
   float a = 0, x = 0;
   do {
     printf("wprowadz liczba a=");
-    scanf(" %f", &a);
+    scanf(" %f", a);
     printf("rozmiar tablicy n=");
-    scanf(" %d", &n);
+    scanf(" %d", n);
     float X[n];
     for (int i = 0; i < n; i++) {
       printf("wprowadz liczba X(%d)=", i + 1);
@@ -33,7 +33,7 @@ int main() {
       X[i] = x;
     }
   } while (1 != validate(a));
-  obliczenia(X, a, n);
+  obliczenia(&X, a, n);
   return 0;
 }
 
