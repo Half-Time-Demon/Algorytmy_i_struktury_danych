@@ -71,6 +71,8 @@ int main() {
     }
 
   }
+ printf("min=%d\n", min);
+ printf("max=%d\n", max);
 
   return 0;
 }
