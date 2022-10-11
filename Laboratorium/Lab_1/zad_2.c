@@ -44,7 +44,7 @@ int validate(float x, float a, float hx, int xn) {
     printf("something wrong");
     return 0;
   } else {
-    printf("200OK");
+    printf("OK");
     return 1;
   }
 }
