@@ -42,7 +42,7 @@ int validate(float a) {
     printf("something wrong");
     return 0;
   } else {
-    printf("200OK");
+    printf("200OK\n");
     return 1;
   }
 }
