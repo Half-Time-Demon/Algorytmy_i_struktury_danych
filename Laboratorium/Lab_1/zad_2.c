@@ -22,7 +22,7 @@ int main() {
   while (1 != validate(x, a, hx, xn)) {
     printf("wprowadz liczba a=");
     scanf(" %f", &a);
-    printf("wprowadz liczba n=");
+    printf("wprowadz liczba x=");
     scanf(" %d", &x);
     printf("wprowadz liczba hx=");
     scanf(" %f", &hx);
