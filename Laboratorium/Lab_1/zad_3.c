@@ -30,7 +30,7 @@ int main() {
       scanf(" %.1f", &x);
       X[i] = x;
     }
-  } while (1 != validate(X, a, n));
+  } while (1 != validate(a));
   obliczenia(X, a, n);
   return 0;
 }
@@ -45,7 +45,7 @@ int validate(float a) {
   }
 }
 
-void obliczenia(float *X[], float a, int n) {
+void obliczenia(float X[], float a, int n) {
   int i = 0;
   float y, x;
   while (i <= n) {
