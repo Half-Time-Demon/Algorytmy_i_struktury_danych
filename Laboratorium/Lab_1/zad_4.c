@@ -7,31 +7,43 @@ X(n)
 * -----------------
 2022-10-11
 */
-// gcc zad_4.c -o Zad_4 -lm
-// ./Zad4
+// gcc zad_3.c -o Zad_3 -lm
 
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
-int main(void){
-	
-    int n;
-    printf("Prosze, podac dlugosc tablicy:");
+int validate(float);
+
+int main() {
+  int n = 0;
+  float a = 0, x = 0, y;
+
+  do {
+    printf("Podaj stala a=");
+    scanf("%f", &a);
+  } while (a == 0);
+
+  do {
+    printf("Podaj rozmiar tablicy X(n)=");
     scanf("%d", &n);
-    double a, x[n], y[n];
-    
-    printf("Prosze, podac a:");
-    scanf("%lf", &a);
-    
-    for(int i=0; i < n; i++)
-    {
-        printf("Podaj x%d:", i+1);
-        scanf("%lf", &x[i]);
-    }
-    for(int i=0; i < n; i++)
-    {
-        y[i] = (a*x[i]*x[i]); //zapisuji do tablicy
-        printf("Wynik: y = %.lf , a = %.lf , x z Tablicy = %.lf \n", y[i], a, x[i]);
-    }
-    }
+  } while (n < 0);
+
+  float X[n];
+  float Y[n];
+
+  for (int i = 0; i < n; i++) {
+    printf("wprowadz liczba X(%d)=", i + 1);
+    scanf("%f", &x);
+    X[i] = x;
+  }
+
+  for (int i = 0; i < n; i++) {
+    printf("iteracja %d: x=%.1f a=%.1f ", i + 1, X[i], a);
+    Y[i] = a * pow(X[i], 2);
+    printf("y=%.1f\n", Y[i]);
+  }
+
+  return 0;
+}
