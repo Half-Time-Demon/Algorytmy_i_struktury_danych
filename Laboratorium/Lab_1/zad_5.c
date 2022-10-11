@@ -2,7 +2,7 @@
 Daniel Trojko, Student
 * -----------------
  Laboratorium 1. Zadanie przyklad
- Obliczyc funkcja y = ax^2 znaczenia, gdy a - stale, x jest wybierany z tablicy
+ Obliczenie sumy, ilosci i mnozenia elementow tablicy. z 47 po 59 linejka
 X(n)
 * -----------------
 2022-10-11
