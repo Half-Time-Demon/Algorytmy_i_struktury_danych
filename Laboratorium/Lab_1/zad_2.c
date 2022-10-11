@@ -17,30 +17,34 @@ void obliczenia(float, float, float, int);
 int validate(float, float, float, int);
 
 int main() {
-  int x0 = 0, n = 0;
+  int x = 0, xn = 0;
   float a = 0, hx = 0;
-  while (1 != validate(x, a, hx, n)) {
+  while (1 != validate(x, a, hx, xn)) {
     printf("wprowadz liczba a=");
     scanf(" %f", &a);
     printf("wprowadz liczba n=");
     scanf(" %d", &x);
     printf("wprowadz liczba hx=");
     scanf(" %f", &hx);
-    printf("wprowadz liczba n=");
+    printf("wprowadz liczba nx=");
     scanf(" %d", &xn);
   }
-  funkcja1(x, a, hx, xn);
+  obliczenia(x, a, hx, xn);
   return 0;
 }
 
 int validate(float x, float a, float hx, int xn) {
   if (x <= xn) {
+    printf("something wrong");
     return 0;
   } else if (a == 0) {
+    printf("something wrong");
     return 0;
   } else if (hx + x > xn) {
+    printf("something wrong");
     return 0;
   } else {
+    printf("200OK");
     return 1;
   }
 }
