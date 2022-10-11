@@ -39,7 +39,7 @@ int main() {
 
 int validate(float a) {
   if (a == 0) {
-    printf("something wrong");
+    printf("something wrong\n");
     return 0;
   } else {
     printf("200OK\n");
@@ -51,7 +51,7 @@ void obliczenia(float X[], float a, int n) {
   int i = 0;
   float y, x;
   while (i <= n) {
-    printf("iteracja %d: x=%.1f a=%.1f ", i + 1, x, a);
+    printf("iteracja %d: x=%.1f a=%.1f ", i + 1, X[i], a);
     y = a * pow(X[i], 2);
     printf("y=%.1f\n", y);
     i++;
