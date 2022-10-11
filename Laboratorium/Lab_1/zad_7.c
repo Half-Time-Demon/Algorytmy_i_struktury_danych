@@ -60,7 +60,7 @@ int main() {
   //srednia
   printf("srednia=%d\n", ilosc / suma);
 
-  float max= 0, min=0;
+  float max= Y[0], min=Y[0];
    
   for (int i = 0; i < n; i++){
     if (max < Y[i]){
