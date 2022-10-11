@@ -16,6 +16,8 @@ X(n)
 void obliczenia(float, float, int);
 int validate(float);
 
+float X;
+
 int main() {
   int n = 0;
   float a = 0, x = 0;
@@ -27,7 +29,7 @@ int main() {
     float X[n];
     for (int i = 0; i < n; i++) {
       printf("wprowadz liczba X(%d)=", i + 1);
-      scanf(" %.1f", &x);
+      scanf("%f", x);
       X[i] = x;
     }
   } while (1 != validate(a));
