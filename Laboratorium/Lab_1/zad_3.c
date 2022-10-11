@@ -23,13 +23,13 @@ int main() {
   float a = 0, x = 0;
   do {
     printf("wprowadz liczba a=");
-    scanf(" %f", a);
+    scanf(" %f", &a);
     printf("rozmiar tablicy n=");
-    scanf(" %d", n);
+    scanf(" %d", &n);
     float X[n];
     for (int i = 0; i < n; i++) {
       printf("wprowadz liczba X(%d)=", i + 1);
-      scanf("%f", x);
+      scanf("%f", &x);
       X[i] = x;
     }
   } while (1 != validate(a));
