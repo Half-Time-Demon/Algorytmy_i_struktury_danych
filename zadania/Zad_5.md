@@ -1,4 +1,4 @@
-'''
+```
 //znajdujemy min
 Min(tablica[],dlug_tablicy){
     
@@ -14,9 +14,9 @@ Min(tablica[],dlug_tablicy){
     return min;
 
 }
-'''
+```
 
-'''
+```
 //znajdujemy max
 Max(tablica[],dlug_tablicy){
     
@@ -32,4 +32,4 @@ Max(tablica[],dlug_tablicy){
     return max;
 
 }
-'''
+```
