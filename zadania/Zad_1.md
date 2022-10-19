@@ -1,5 +1,6 @@
 Zadanie 1
 
+```
 Pobierz(n){ // otszymujemy faktorial napszyklad 3
 
     factorial = 1.0; // jes ruwne jednemu poniewaz mnozenie przez 0 nic nieda
@@ -14,6 +15,7 @@ Pobierz(n){ // otszymujemy faktorial napszyklad 3
     
     return factorial; //zwraca faktorial
 }
+```
 
 // gdy n=3 3!=3*2*1*1 my mozemy jego pszewrucic i nic sie nie zmieni 1*1*2*3=3!
 // poniewaz faktorial musi byc wienkszy od zera factorial=1 i ciong "i" jest i=1
