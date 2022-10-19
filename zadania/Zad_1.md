@@ -1,3 +1,5 @@
+Zadanie 1
+
 Pobierz(n){ // otszymujemy faktorial napszyklad 3
 
     factorial = 1.0; // jes ruwne jednemu poniewaz mnozenie przez 0 nic nieda
