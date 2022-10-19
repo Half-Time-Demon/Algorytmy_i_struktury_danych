@@ -1,3 +1,4 @@
+Zadanie 5
 ```
 //znajdujemy min
 Min(tablica[],dlug_tablicy){
