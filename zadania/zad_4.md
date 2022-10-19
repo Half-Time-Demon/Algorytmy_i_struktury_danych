@@ -1,3 +1,4 @@
+Zadanie 4
 ```
 Obliczenia_srednej(n, tab){
   suma = 0
