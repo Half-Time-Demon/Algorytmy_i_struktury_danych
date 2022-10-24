@@ -57,7 +57,7 @@ int main() {
   printf("suma=%d\n", suma);
   printf("moznik=%d\n", moznik);
 
-  printf("srednia=%d\n", ilosc / suma);
+  printf("srednia=%d\n", suma /ilosc );
 
   return 0;
 }
