@@ -35,13 +35,13 @@ int main() {
 
 int validate(float x, float a, float hx, int xn) {
   if (x <= xn) {
-    printf("something wrong");
+    printf("error 2: 'xn' jest mniejszy lub ruwny 'x'");
     return 0;
   } else if (a == 0) {
-    printf("something wrong");
+    printf(" error 2:'a' jest ruwna 0");
     return 0;
   } else if (hx + x > xn) {
-    printf("something wrong");
+    printf("suma 'hx' i 'x' jest wienksza niz 'xn'");
     return 0;
   } else {
     printf("OK");
