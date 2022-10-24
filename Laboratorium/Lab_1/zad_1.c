@@ -11,7 +11,6 @@ krokiem 0.5, x=2 do 6 krokiem 2
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 void funkcja1(float, float);
 
