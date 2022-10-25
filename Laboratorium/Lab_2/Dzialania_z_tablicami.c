@@ -24,14 +24,13 @@ void printTable(int *arr);
 void main(void) {
   int arr[100];
   // realizacja
-
   srand(time(NULL)); // use current time as seed for random generator
   // float random_variable = rand();
-
-  /*for (int i = 0; i < (sizeof(arr) / sizeof(arr[0])); i++) {
-    arr[i] = rand();
-    printf("%f ", arr[i]);
-  }*/
+  for (int i = 0; i < size(arr); i++) {
+    arr[i] = rand() % 100;
+    printf("%d ", arr[i]);
+  }
+  printf("size : %d", size(arr));
   if (find(arr) == 1) {
     printf("find true\n");
   } else {
