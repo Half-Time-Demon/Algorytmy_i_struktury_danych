@@ -28,7 +28,6 @@ void main(void) {
   // realizacja
 
   srand(time(NULL)); // use current time as seed for random generator
-  // float random_variable = rand();
   for (int i = 0; i < size(); i++) {
     arr[i] = rand() % 100;
     printf("%d ", arr[i]);
@@ -43,7 +42,6 @@ int size() {
  }
 
 int find(int item, int *arr) {
-  // int *arr2 = *arr;
   printf("%d", size());
   if (size(arr) > 0) {
     for (int i = 0; i < size(arr); i++) {
