@@ -54,7 +54,21 @@ int find(int item, int *arr) {
   return 0;
 }
 
-void insert(int item, int pos, int *arr) { arr[pos] = item; }
+void insert(int item, int pos, int *arr) { 
+    int tmp_arr[size() + 1];
+    int j=0;
+    for (int i = 0; i < size()+1; i++) {
+    if (i != pos) {
+      tmp_arr[i] = arr[j];
+      j++;
+    } else {
+
+      tmp_arr[i] = item;
+      
+    }
+  }
+  *arr = *tmp_arr; 
+  }
 
 void remove2(int pos, int *arr) {
   int tmp_arr[size() - 1];
@@ -90,7 +104,9 @@ int findMin(int *arr) {
 }
 
 void printTable(int *arr) {
+  printf("\nPrint array \n------ \n");
   for (int i = 0; i < size(); i++) {
-    printf(" %d ", arr[i]);
+    printf(" %d \n", arr[i]);
   }
+  printf("------\n");
 }
