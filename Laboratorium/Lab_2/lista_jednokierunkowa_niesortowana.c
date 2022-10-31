@@ -50,6 +50,15 @@
         head = (it *)malloc(sizeof(it));
         head=NULL;
  
+
+        srand(time(NULL));
+
+        for (int i = 0; i < 3; i++)
+        {
+            next(&head,rand()%100);
+            previous(&head,rand()%100);
+            insert(&head,rand()%100,rand()%size(head));
+        }
         return;
     }
 
@@ -224,4 +233,8 @@
             current = current->next;
         }
         return min;
+    }
+
+    int retrieve(it *item, it *head){
+        
     }
