@@ -28,7 +28,12 @@
 
 ## Pseudocod:
 ```
-int main( )
+// Daniel Trojko, Student
+// Deszyfrowanie z pseudolosowym odstępem
+// Data: 20.11.2022
+//-----------------------------
+
+Deszyfrowanie_z_pseudolosowym_odstepem( )
 {
   implementacja zmienych s, i, X, a, m, c;
 
@@ -66,6 +71,11 @@ int main( )
 
 ## C++ cod:
 ```
+// Daniel Trojko, Student
+// Deszyfrowanie z pseudolosowym odstępem
+// Data: 20.11.2022
+//-----------------------------
+
 #include <iostream>
 #include <string>
 
