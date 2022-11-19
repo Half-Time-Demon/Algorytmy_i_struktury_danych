@@ -17,8 +17,7 @@
 
 ### K01:	f 0 ← 0	pierwsza lub f i-2 liczba Fibonacciego
 ### K02:	f 1 ← 1	druga lub f i-1 liczba Fibonacciego
-### K03:	Dla i  = 0, 1, ..., n:
-### wykonuj kroki K04...K08	 
+### K03:	Dla i  = 0, 1, ..., n:  wykonuj kroki K04...K08	 
 ### K04:	    Jeśli i  > 1,    to idź do K06	 
 ### K05:	    f  ← i    i następny obieg pętli K03	 
 ### K06:	    f  ← f 0 + f 1	obliczamy kolejną liczbę Fibonacciego
@@ -27,5 +26,29 @@
 ### K09:	Pisz f	 
 ### K10:	Zakończ	
 
+## Pseudokod
 ```
+#include <iostream>
+
+using namespace std;
+
+int main( )
+{
+  unsigned long long f, f0, f1;
+  int i, n;
+
+  f0 = 0;
+  f1 = 1;
+  cin >> n;
+  for( i = 0; i <= n; i++ )
+    if( i > 1 )
+    {
+      f  = f0 + f1;
+      f0 = f1;
+      f1 = f;
+    }
+    else f = i;
+  cout << f << endl;
+  return 0;
+}
 ```
