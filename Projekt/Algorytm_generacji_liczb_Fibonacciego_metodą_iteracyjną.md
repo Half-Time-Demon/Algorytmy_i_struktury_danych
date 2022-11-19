@@ -28,6 +28,27 @@
 
 ## Pseudokod:
 ```
+Fib_metoda_iteracyjna( )
+{
+  n = 0;
+  f = 0;
+  f0 = 0;
+  f1 = 1;
+  wprowadz n;
+  for( i = 0; i <= n; i++ )
+    if( i > 1 )
+    {
+      f  = f0 + f1;
+      f0 = f1;
+      f1 = f;
+    }
+    else f = i;
+  wyswietl f;
+}
+```
+
+## C++ cod:
+```
 #include <iostream>
 
 using namespace std;
@@ -52,3 +73,7 @@ int main( )
   return 0;
 }
 ```
+
+## Dowód:
+
+<img width="674" alt="image" src="https://user-images.githubusercontent.com/115026306/197411917-2c1d24eb-e4ea-4476-ac86-d62b28a6cc53.png">
