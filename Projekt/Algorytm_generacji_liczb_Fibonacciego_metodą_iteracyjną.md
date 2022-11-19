@@ -76,4 +76,4 @@ int main( )
 
 ## Dowód:
 
-<img width="674" alt="image" src="[https://user-images.githubusercontent.com/115026306/197411917-2c1d24eb-e4ea-4476-ac86-d62b28a6cc53.png](https://github.com/Half-Time-Demon/Algorytmy_i_struktury_danych/blob/main/Projekt/dowud_fib.png)">
+<img width="674" alt="image" src="https://user-images.githubusercontent.com/115026306/197411917-2c1d24eb-e4ea-4476-ac86-d62b28a6cc53.png">
