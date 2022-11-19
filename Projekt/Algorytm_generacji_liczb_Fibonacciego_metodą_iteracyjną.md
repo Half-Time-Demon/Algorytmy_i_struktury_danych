@@ -2,7 +2,7 @@
 
 ## Wejście:
 
-n	 –  	numer liczby ciągu Fibonacciego do wyliczenia, n ∈ N.
+### n	 –  	numer liczby ciągu Fibonacciego do wyliczenia, n ∈ N.
 
 ## Wyjście:
 
