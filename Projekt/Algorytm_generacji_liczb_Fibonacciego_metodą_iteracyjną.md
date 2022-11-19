@@ -1,20 +1,19 @@
-```
-#Algorytm generacji liczb Fibonacciego metodą iteracyjną
+# Algorytm generacji liczb Fibonacciego metodą iteracyjną
 
-##Wejście:
+## Wejście:
 
 n	 –  	numer liczby ciągu Fibonacciego do wyliczenia, n ∈ N.
 
-##Wyjście:
+##W yjście:
 
 n-ta liczba ciągu Fibonacciego.
 
-##Zmienne pomocnicze:
+## Zmienne pomocnicze:
 
 
 f 0, f 1, f	 – 	kolejne trzy liczby Fibonacciego, f 0, f 1, f ∈ C.
 
-##Lista kroków:
+## Lista kroków:
 
 K01:	f 0 ← 0	pierwsza lub f i-2 liczba Fibonacciego
 K02:	f 1 ← 1	druga lub f i-1 liczba Fibonacciego
@@ -28,6 +27,7 @@ K06:	    f  ← f 0 + f 1	obliczamy kolejną liczbę Fibonacciego
 K07	    f 0 ← f 1	zapamiętujemy wyniki obliczeń pośrednich
 K08:	    f 1 ← f	dla następnego obiegu pętli
 K09:	Pisz f	 
-K10:	Zakończ	 
+K10:	Zakończ	
 
+```
 ```
