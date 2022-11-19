@@ -28,6 +28,11 @@
 
 ## Pseudokod:
 ```
+// Daniel Trojko, Student
+// Algorytm generacji liczb Fibonacciego metodą iteracyjną
+// Data: 20.11.2022
+//-----------------------------
+
 Fib_metoda_iteracyjna( )
 {
   n = 0;
@@ -49,6 +54,11 @@ Fib_metoda_iteracyjna( )
 
 ## C++ cod:
 ```
+// Daniel Trojko, Student
+// Algorytm generacji liczb Fibonacciego metodą iteracyjną
+// Data: 20.11.2022
+//-----------------------------
+
 #include <iostream>
 
 using namespace std;
