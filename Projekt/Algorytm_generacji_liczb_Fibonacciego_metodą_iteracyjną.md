@@ -1,3 +1,4 @@
+```
 #Algorytm generacji liczb Fibonacciego metodą iteracyjną
 
 ##Wejście:
@@ -29,5 +30,4 @@ K08:	    f 1 ← f	dla następnego obiegu pętli
 K09:	Pisz f	 
 K10:	Zakończ	 
 
-```
 ```
