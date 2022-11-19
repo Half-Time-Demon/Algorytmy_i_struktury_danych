@@ -4,7 +4,7 @@
 
 n	 –  	numer liczby ciągu Fibonacciego do wyliczenia, n ∈ N.
 
-##W yjście:
+## Wyjście:
 
 n-ta liczba ciągu Fibonacciego.
 
