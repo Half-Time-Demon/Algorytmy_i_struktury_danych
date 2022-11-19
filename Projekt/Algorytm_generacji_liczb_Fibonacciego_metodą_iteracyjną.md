@@ -26,7 +26,7 @@
 ### K09:	Pisz f	 
 ### K10:	Zakończ	
 
-## Pseudokod
+## Pseudokod:
 ```
 #include <iostream>
 
