@@ -6,16 +6,16 @@
 
 ## Wyjście:
 
-n-ta liczba ciągu Fibonacciego.
+### n-ta liczba ciągu Fibonacciego.
 
 ## Zmienne pomocnicze:
 
 
-f 0, f 1, f	 – 	kolejne trzy liczby Fibonacciego, f 0, f 1, f ∈ C.
+### f 0, f 1, f	 – 	kolejne trzy liczby Fibonacciego, f 0, f 1, f ∈ C.
 
 ## Lista kroków:
 
-K01:	f 0 ← 0	pierwsza lub f i-2 liczba Fibonacciego
+### K01:	f 0 ← 0	pierwsza lub f i-2 liczba Fibonacciego
 K02:	f 1 ← 1	druga lub f i-1 liczba Fibonacciego
 K03:	Dla i  = 0, 1, ..., n:
 wykonuj kroki K04...K08	 
