@@ -122,3 +122,16 @@ int main( )
 
 ## Dowód:
 
+### Zasada rozszyfrowywania jest prawie identyczna jak przy szyfrowaniu. Jedyna różnica leży we wzorze obliczania kodu znaku z kodu szyfru:
+###
+### ch  = 65 + ( ch  - 39 - X  mod 26 ) mod 26
+
+### Program odczytuje kolejno klucz X oraz łańcuch s, który rozszyfrowuje kodem o pseudolosowym odstępie i wypisuje wynik. Parametry generatora LCG są zdefiniowane wewnątrz programu. Zakres kluczy wynosi od 0 do 3956279999.
+
+### zalóżmy że robimy po koleji 3 razy z nastempujoncymi kluczami "1001,1002,1003" dla szyfrowania np. oto takiego komunikatu:
+### " AAAAAA NIEPRZYJACIEL ZAATAKUJE W NOCY AAAAAA "
+
+## szyfrowanie:
+
+## deszyfrowanie:
+
