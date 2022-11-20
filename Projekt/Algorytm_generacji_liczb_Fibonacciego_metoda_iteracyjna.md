@@ -35,20 +35,20 @@
 
 Fib_metoda_iteracyjna( )
 {
-  n = 0;
-  f = 0;
-  f0 = 0;
-  f1 = 1;
-  wprowadz n;
+  n = 0
+  f = 0
+  f0 = 0
+  f1 = 1
+  wprowadz n
   for( i = 0; i <= n; i++ )
     if( i > 1 )
     {
-      f  = f0 + f1;
-      f0 = f1;
-      f1 = f;
+      f  = f0 + f1
+      f0 = f1
+      f1 = f
     }
-    else f = i;
-  wyswietl f;
+    else f = i
+  wyswietl f
 }
 ```
 
