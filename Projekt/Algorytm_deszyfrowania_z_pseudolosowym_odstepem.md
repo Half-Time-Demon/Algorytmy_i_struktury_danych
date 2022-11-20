@@ -35,18 +35,18 @@
 
 Deszyfrowanie_z_pseudolosowym_odstepem( )
 {
-  implementacja zmienych s, i, X, a, m, c;
+  implementacja zmienych s, i, X, a, m, c
 
 // definiujemy generator LCG
 
-  m = 3956280000ull;
-  a = 1978141ull;
-  c = 1309ull;
+  m = 3956280000ull
+  a = 1978141ull
+  c = 1309ull
 
 // odczytujemy klucz i szyfr
 
-  wprowadzenie X; cin.ignore ( 256, '\n' );
-  getline ( cin, s );
+  wprowadzenie X; cin.ignore ( 256, '\n' )
+  getline ( cin, s )
 
 // deszyfrujemy
 
@@ -55,17 +55,17 @@ Deszyfrowanie_z_pseudolosowym_odstepem( )
 
 // obliczamy kolejną liczbę pseudolosową
 
-    X = ( a * X + c ) % m;
+    X = ( a * X + c ) % m
 
 // deszyfrujemy literkę
 
-    s [ i ] = toupper ( s [ i ] );
-    if( ( s [ i ] >= 'A' ) && ( s [ i ] <= 'Z' ) ) s [ i ] = 65 + ( s [ i ] - 39 - X % 26 ) % 26;
+    s [ i ] = toupper ( s [ i ] )
+    if( ( s [ i ] >= 'A' ) && ( s [ i ] <= 'Z' ) ) s [ i ] = 65 + ( s [ i ] - 39 - X % 26 ) % 26
   }
 
 // wypisujemy rozszyfrowany tekst
 
-  wypisujemy s;
+  return s
 } 
 ```
 
