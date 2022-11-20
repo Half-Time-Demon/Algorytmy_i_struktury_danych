@@ -48,7 +48,7 @@ Fib_metoda_iteracyjna( )
       f1 = f
     }
     else f = i
-  wyswietl f
+  return f
 }
 ```
 
