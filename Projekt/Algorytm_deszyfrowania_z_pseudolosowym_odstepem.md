@@ -133,8 +133,8 @@ int main( )
 
 ## szyfrowanie:
 
-<p style="text-align:center;"><img width="674" alt="image" src="https://github.com/Half-Time-Demon/Algorytmy_i_struktury_danych/blob/main/Projekt/szyfrowanie.png"></p>
+<img width="674" alt="image" src="https://github.com/Half-Time-Demon/Algorytmy_i_struktury_danych/blob/main/Projekt/szyfrowanie.png">
 
 ## deszyfrowanie:
 
-<p style="text-align:center;"><img width="674" alt="image" style="text-align:center;" src="https://github.com/Half-Time-Demon/Algorytmy_i_struktury_danych/blob/main/Projekt/deszyfrowanie.png"></p>
+<img width="674" alt="image" style="text-align:center;" src="https://github.com/Half-Time-Demon/Algorytmy_i_struktury_danych/blob/main/Projekt/deszyfrowanie.png">
