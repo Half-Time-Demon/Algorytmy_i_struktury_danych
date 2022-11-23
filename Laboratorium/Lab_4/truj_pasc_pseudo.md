@@ -1,4 +1,4 @@
-#
+# ciong fibonaciego rekurencyjnie
 ```
 truj_Pasc(n,k)
 {
