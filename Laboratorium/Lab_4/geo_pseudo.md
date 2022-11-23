@@ -1,4 +1,4 @@
-# ciong geometryczny rekurencyjnie
+# ciong geometryczny rekurencyjnie psudokod:
 ```
 geo( n, q){
 if(n == 1) 
