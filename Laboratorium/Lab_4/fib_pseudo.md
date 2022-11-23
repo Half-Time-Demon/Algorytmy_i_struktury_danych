@@ -1,4 +1,4 @@
-# ciong fibonaciego rekurencyjnie pseudokod
+# ciong fibonaciego rekurencyjnie pseudokod:
 ```
 fib( n) { 
   if(n==1)
