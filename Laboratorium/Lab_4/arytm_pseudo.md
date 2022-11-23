@@ -1,4 +1,4 @@
-# ciong arytmetyczny rekurencyjnie
+# ciong arytmetyczny rekurencyjnie psudokod:
 ```
 aryt( n, a, r)
 {
