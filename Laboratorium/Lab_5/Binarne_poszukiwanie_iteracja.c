@@ -1,11 +1,9 @@
 // Daniel Trojko. Student
 // Binarne poszukiwanie. Implemenetacja iteracja.
 // 2022-12-07
-#include<iostream>
+#include <stdlib.h>
 #include <stdio.h>
 #include <errno.h>
-
-using namespace std;
 
 #define MAX_LINE_LENGTH 1000
 long long arr[MAX_LINE_LENGTH];
@@ -32,7 +30,7 @@ int szukaj(int l, int p, long szukana)
 int main(){
 
 	FILE *fptr;
-	int number, i = 0;
+	int number, i = 0,szukana;
 
 	fptr = fopen("sorted.dat", "r");
 
@@ -51,15 +49,14 @@ int main(){
 
 	fclose(fptr);
 
-	cin>>szukana;
+	scanf("%d", szukana);
  
-	int pozycja = szukaj(0,n-1,szukana);
+	int pozycja = szukaj(0,MAX_LINE_LENGTH-1,szukana);
  
 	if(pozycja==-1)
-		cout<<"Liczba "<<szukana<<" nie występuje w zbiorze"<<endl;
+        printf("Liczba %d nie występuje w zbiorze",szukana);
 	else
-		cout<<"Liczba "<<szukana
-<<" występuje w zbiorze w komórce o numerze "<<pozycja<<endl;
+        printf("Liczba %d występuje w zbiorze w komórce o numerze %d",szukana,pozycja);
  
 	return 0;
 }
