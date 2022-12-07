@@ -30,7 +30,8 @@ int szukaj(int l, int p, long szukana)
 int main(){
 
 	FILE *fptr;
-	int number, i = 0,szukana;
+	int number, i = 0;
+    long long szukana;
 
 	fptr = fopen("sorted.dat", "r");
 
