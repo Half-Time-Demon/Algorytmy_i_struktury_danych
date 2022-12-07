@@ -1,3 +1,6 @@
+// Daniel Trojko. Student
+// Binarne poszukiwanie. Implemenetacja iteracja.
+// 2022-12-07
 #include<iostream>
 #include <stdio.h>
 #include <errno.h>
