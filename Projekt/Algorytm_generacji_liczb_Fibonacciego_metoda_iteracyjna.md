@@ -12,7 +12,7 @@
 - [Zmienne pomocnicze](#Zmienne pomocnicze)
 - [Lista kroków](#Lista kroków)
 - [Pseudokod](#Pseudokod)
-- [C kod][C kod]
+- [C kod][#C]
 - [C++ kod](#C++ kod)
 - [Dowód](#Dowód)
 
@@ -73,7 +73,7 @@ Fib_metoda_iteracyjna( )
 }
 ```
 
-## C kod:
+## C kod:[c]
 ```
 // Daniel Trojko, Student
 // Algorytm generacji liczb Fibonacciego metodą iteracyjną
