@@ -6,7 +6,7 @@
 
 ## Data 2023-01-20
 
-- [Źródła i literatura](#żródła i literatura)
+- [Źródła i literatura](#żródła-i-literatura)
 - [Wejście](#Wejście)
 - [Wyjście](#Wyjście)
 - [Zmienne pomocnicze](#zmienne-pomocnicze)
