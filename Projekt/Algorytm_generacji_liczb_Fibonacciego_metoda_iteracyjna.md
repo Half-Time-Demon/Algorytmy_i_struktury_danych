@@ -7,6 +7,7 @@
 ## Data 2023-01-20
 
 - [Źródła i literatura](#żródła-i-literatura)
+- [Przykład używania](przykład-używania)
 - [Wejście](#Wejście)
 - [Wyjście](#Wyjście)
 - [Zmienne pomocnicze](#zmienne-pomocnicze)
@@ -15,11 +16,6 @@
 - [C kod](#c-kod)
 - [C++ kod](#c-kod-1)
 - [Dowód](#Dowód)
-
-## Źródła i literatura:
-
-### 1.Algorytmy i struktury danych, L. Banachowski, K. Diks, W. Rytter, Wydawnictwa Naukowo - Techniczne, 2006.
-### 2.Wprowadzenie do algorytmów, Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, Wydawnictwa Naukowo - Techniczne, 2004.
 
 ## Wejście:
 
@@ -139,3 +135,10 @@ int main( )
 ## Dowód:
 
 <img width="674" alt="image" src="https://github.com/Half-Time-Demon/Algorytmy_i_struktury_danych/blob/main/Projekt/dowud_fib.png">
+
+## Przykład używania:
+
+## Źródła i literatura:
+
+### 1.Algorytmy i struktury danych, L. Banachowski, K. Diks, W. Rytter, Wydawnictwa Naukowo - Techniczne, 2006.
+### 2.Wprowadzenie do algorytmów, Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, Wydawnictwa Naukowo - Techniczne, 2004.
