@@ -6,7 +6,7 @@
 
 ## Data 2023-01-20
 
-## Algorytm deszyfrowania z pseudolosowym odstępem ##
+## Algorytm deszyfrowania z pseudolosowym odstępem
 
 ## Wejście:
 
