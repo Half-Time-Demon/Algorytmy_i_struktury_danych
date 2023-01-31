@@ -6,6 +6,17 @@
 
 ## Data 2023-01-20
 
+- [Literatura](#Literatura)
+- [Wejście](#Wejście)
+- [Wyjście](#Wyjście)
+- [Zmienne pomocnicze](#zmienne-pomocnicze)
+- [Lista kroków](#lista-kroków)
+- [Pseudokod](#Pseudokod)
+- [C kod](#c-kod)
+- [C++ kod](#c-kod-1)
+- [Dowód](#Dowód)
+
+
 ## Wejście:
 
 ### X	 – 	klucz, X  ∈ N
