@@ -6,7 +6,6 @@
 
 ## Data 2023-01-20
 
-- [Literatura](#Literatura)
 - [Wejście](#Wejście)
 - [Wyjście](#Wyjście)
 - [Zmienne pomocnicze](#zmienne-pomocnicze)
@@ -15,6 +14,8 @@
 - [C kod](#c-kod)
 - [C++ kod](#c-kod-1)
 - [Dowód](#Dowód)
+- [Przykład używania](#przykład-używania)
+- [Literatura](#Literatura)
 
 ## Wejście:
 
@@ -238,4 +239,4 @@ int main( )
 
 ## Dowód:
 
-
+## Przykład używania:
