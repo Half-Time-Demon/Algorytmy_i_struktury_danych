@@ -240,3 +240,5 @@ int main( )
 ## Dowód:
 
 ## Przykład używania:
+
+## Źródła i literatura:
