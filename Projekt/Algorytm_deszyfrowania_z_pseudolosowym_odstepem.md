@@ -207,3 +207,5 @@ int main( )
 ## Przykład używania:
 
 ## Źródła i literatura:
+
+[Szyfr Vigenère’a](https://pl.wikipedia.org/wiki/Szyfr_Vigen%C3%A8re%E2%80%99a)
