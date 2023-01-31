@@ -15,7 +15,7 @@
 - [C++ kod](#c-kod-1)
 - [Dowód](#Dowód)
 - [Przykład używania](#przykład-używania)
-- [Literatura](#Literatura)
+- [Źródła i literatura](#żródła-i-literatura)
 
 ## Wejście:
 
