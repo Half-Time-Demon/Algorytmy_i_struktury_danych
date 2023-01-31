@@ -205,4 +205,4 @@ int main( )
 <img width="674" alt="image" src="https://github.com/Half-Time-Demon/Algorytmy_i_struktury_danych/blob/main/Projekt/szyfrowanie.png">
 
 
-## Przykład używania
+## Przykład używania:
