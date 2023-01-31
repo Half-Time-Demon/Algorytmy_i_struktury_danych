@@ -9,11 +9,11 @@
 - [Literatura](#Literatura)
 - [Wejście](#Wejście)
 - [Wyjście](#Wyjście)
-- [Zmienne pomocnicze](#Zmienne pomocnicze)
-- [Lista kroków](#Lista kroków)
+- [Zmienne pomocnicze](#zmienne-pomocnicze)
+- [Lista kroków](#lista-kroków)
 - [Pseudokod](#Pseudokod)
 - [C kod](#c-kod)
-- [C++ kod](#c++-kod)
+- [C++ kod](#c-kod-1)
 - [Dowód](#Dowód)
 
 ## Literatura:
