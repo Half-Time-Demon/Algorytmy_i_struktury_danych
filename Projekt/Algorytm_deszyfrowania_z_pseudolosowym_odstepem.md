@@ -208,6 +208,8 @@ int main( )
 
 ### deszyfrowania z pseudolosowym odstępem było stosowane w drugiej wojnie światowej poniewaz machina ["Enigma"](https://ru.wikipedia.org/wiki/%D0%AD%D0%BD%D0%B8%D0%B3%D0%BC%D0%B0) szyfrowała z psedolosowym odstępem. Aby ukryć odstępy między wyrazami, które pozwalają zidentyfikować słowa, można wpisywać w ich miejsce wybraną literkę (np. X – tak postępowali operatorzy niemieckich maszyn Enigma w czasie II Wojny Światowej ). Wtedy szyfr stanie się jednolitym blokiem liter.
 
+### Zaruwno w nasze czasy stosuje się deszyfrowania z pseudolosowym odstępem w VPN aby odrzyfrowac zaszyfrowane dane. w internecie gdy logujemy się odsyla się zaszyfrowany password do servera i na serweże deszyfruje się aby sprawdzic cz są jedentyczne.
+
 ## Źródła i literatura:
 
 [Szyfr Vigenère’a](https://pl.wikipedia.org/wiki/Szyfr_Vigen%C3%A8re%E2%80%99a)
