@@ -73,7 +73,7 @@ Fib_metoda_iteracyjna( )
 }
 ```
 
-## C kod:[c]
+## C kod:[C]
 ```
 // Daniel Trojko, Student
 // Algorytm generacji liczb Fibonacciego metodą iteracyjną
