@@ -1,12 +1,10 @@
-# Minimalna liczba monet, które tworzą daną wartość
+# Algorytm deszyfrowania z pseudolosowym odstępem
 
 ## Praca wykonal [Daniel Trojko](https://github.com/Half-Time-Demon/)
 
 ## Projekt do przedmiotu "Algorytmy i struktury danych"
 
 ## Data 2023-01-20
-
-## Algorytm deszyfrowania z pseudolosowym odstępem
 
 ## Wejście:
 
