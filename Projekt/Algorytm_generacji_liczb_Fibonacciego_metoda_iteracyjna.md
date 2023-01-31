@@ -12,7 +12,7 @@
 - [Zmienne pomocnicze](#Zmienne)
 - [Lista kroków](#Lista)
 - [Pseudokod](#Pseudokod)
-- [C kod](#C kod#)
+- [C kod](#Ckod)
 - [C++ kod](#C++)
 - [Dowód](#Dowód)
 
