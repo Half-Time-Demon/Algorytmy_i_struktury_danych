@@ -7,7 +7,7 @@
 ## Data 2023-01-20
 
 - [Literatura](#Literatura)
-- [Wejście](#Wejście)
+- [Wejście](#Wejście1)
 - [Wyjście](#Wyjście)
 - [Zmienne pomocnicze](#Zmienne pomocnicze)
 - [Lista kroków](#Lista kroków)
