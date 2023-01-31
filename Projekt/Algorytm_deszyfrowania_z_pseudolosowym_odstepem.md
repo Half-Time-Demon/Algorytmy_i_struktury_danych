@@ -206,6 +206,9 @@ int main( )
 
 ## Przykład używania:
 
+### deszyfrowania z pseudolosowym odstępem było stosowane w drugiej wojnie światowej poniewaz machina ["Enigma"](https://ru.wikipedia.org/wiki/%D0%AD%D0%BD%D0%B8%D0%B3%D0%BC%D0%B0) szyfrowała z psedolosowym odstępem. Aby ukryć odstępy między wyrazami, które pozwalają zidentyfikować słowa, można wpisywać w ich miejsce wybraną literkę (np. X – tak postępowali operatorzy niemieckich maszyn Enigma w czasie II Wojny Światowej ). Wtedy szyfr stanie się jednolitym blokiem liter.
+
 ## Źródła i literatura:
 
 [Szyfr Vigenère’a](https://pl.wikipedia.org/wiki/Szyfr_Vigen%C3%A8re%E2%80%99a)
+["Enigma"](https://com.wikipedia.org/wiki/%D0%AD%D0%BD%D0%B8%D0%B3%D0%BC%D0%B0)
