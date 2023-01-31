@@ -34,7 +34,7 @@
 ### K05:	Pisz s	wyprowadzamy tekst
 ### K06:	Zakończ	gotowe
 
-## Pseudocod:
+## Pseudokod:
 ```
 // Daniel Trojko, Student
 // Deszyfrowanie z pseudolosowym odstępem
