@@ -6,7 +6,12 @@
 
 ## Data 2023-01-20
 
-## Literatura
+- [Literatura](#Literatura)
+- [Wejście](#Wejście)
+- [Wyjście](#Wyjście)
+
+
+## Literatura:
 
 ### 1.Algorytmy i struktury danych, L. Banachowski, K. Diks, W. Rytter, Wydawnictwa Naukowo - Techniczne, 2006.
 ### 2.Wprowadzenie do algorytmów, Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, Wydawnictwa Naukowo - Techniczne, 2004.
