@@ -7,13 +7,13 @@
 ## Data 2023-01-20
 
 - [Literatura](#Literatura)
-- [Wejście](#Wejście1)
+- [Wejście](#Wejście)
 - [Wyjście](#Wyjście)
-- [Zmienne pomocnicze](#Zmienne pomocnicze)
-- [Lista kroków](#Lista kroków)
+- [Zmienne pomocnicze](#Zmienne)
+- [Lista kroków](#Lista)
 - [Pseudokod](#Pseudokod)
-- [C kod](#C kod)
-- [C++ kod](#C++ kod)
+- [C kod](#C)
+- [C++ kod](#C++)
 - [Dowód](#Dowód)
 
 ## Literatura:
