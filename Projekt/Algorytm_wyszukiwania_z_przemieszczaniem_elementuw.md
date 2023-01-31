@@ -1,4 +1,12 @@
-# Algorytm wyszukiwania z przemieszczaniem elementów
+# Minimalna liczba monet, które tworzą daną wartość
+
+## Praca wykonal [Daniel Trojko](https://github.com/Half-Time-Demon/)
+
+## Projekt do przedmiotu "Algorytmy i struktury danych"
+
+## Data 2023-01-20
+
+## Algorytm wyszukiwania z przemieszczaniem elementów
 
 ## Wejście:
 
@@ -25,7 +33,7 @@
 ### K08:	Idź do kroku K02	i kontynuujemy pętlę
 ### K09:	Zakończ z wynikiem p
 
-## Pseudocod:
+## Pseudokod:
 ```
 // Daniel Trojko, Student
 // Samoorganizujące się listy
