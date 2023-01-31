@@ -241,6 +241,8 @@ int main( )
 
 ## Przykład używania:
 
+### 
+
 ## Źródła i literatura:
 
 ### [Algorytm Knutha-Morrisa-Pratta](https://pl.wikipedia.org/wiki/Algorytm_Knutha-Morrisa-Pratta)
