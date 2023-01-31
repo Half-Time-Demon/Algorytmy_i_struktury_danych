@@ -7,7 +7,7 @@
 ## Data 2023-01-20
 
 - [Źródła i literatura](#żródła-i-literatura)
-- [Przykład używania](przykład-używania)
+- [Przykład używania](#przykład-używania)
 - [Wejście](#Wejście)
 - [Wyjście](#Wyjście)
 - [Zmienne pomocnicze](#zmienne-pomocnicze)
