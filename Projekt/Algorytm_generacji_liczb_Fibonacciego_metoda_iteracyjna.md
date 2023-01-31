@@ -138,7 +138,10 @@ int main( )
 
 ## Przykład używania:
 
+### Ciąg Fibonacciego oraz złota liczba pojawią się w przyrodzie, kosmosie, anatomii ludzkiego ciała, architekturze, inżynierii, sztuce, muzyce czy fizyce. Ruchy fal, huragany, skorupy ślimaków i małż, rogi muflonów, płatki roślin, galaktyki spiralne, a u wielu roślin w kolejnych latach na poszczególnych poziomach ich wzrostu liczba odgałęzień oraz liczba liści są odzwierciedleniem liczb Fibonacciego. W programowaniu wykożystuje się w programach matymatycznych,atronomicznych we programie twozenia muzyki.
+
 ## Źródła i literatura:
 
 ### 1.Algorytmy i struktury danych, L. Banachowski, K. Diks, W. Rytter, Wydawnictwa Naukowo - Techniczne, 2006.
 ### 2.Wprowadzenie do algorytmów, Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, Wydawnictwa Naukowo - Techniczne, 2004.
+[Zastosowania ciągu Fibonacciego](https://boringowl.io/blog/ciag-fibonacciego)
