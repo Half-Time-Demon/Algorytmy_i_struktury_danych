@@ -12,8 +12,8 @@
 - [Zmienne pomocnicze](#Zmienne pomocnicze)
 - [Lista kroków](#Lista kroków)
 - [Pseudokod](#Pseudokod)
-- [C kod]([#C kod])
-- [C++ kod]({#C++ kod})
+- [C kod][C kod]
+- [C++ kod](#C++ kod)
 - [Dowód](#Dowód)
 
 ## Literatura:
