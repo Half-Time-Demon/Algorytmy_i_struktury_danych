@@ -239,6 +239,9 @@ int main( )
 
 ## Dowód:
 
+<img width="674" alt="image" src="https://github.com/Half-Time-Demon/Algorytmy_i_struktury_danych/blob/main/Projekt/dowud1.png">
+<img width="674" alt="image" src="https://github.com/Half-Time-Demon/Algorytmy_i_struktury_danych/blob/main/Projekt/dowud2.png">
+
 ## Przykład używania:
 
 ### 
