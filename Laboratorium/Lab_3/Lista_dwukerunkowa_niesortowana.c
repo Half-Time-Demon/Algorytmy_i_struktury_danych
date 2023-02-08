@@ -11,7 +11,7 @@ typedef struct Item {
     struct Item *prev;
 }Item;
 
-float find(float value, Item **head);
+int find(float value, Item **head);
 
 Item locate(float value, Item *head); // pointer
 
@@ -45,7 +45,7 @@ void main(void) {
 
 // Funkcii
 
-float find(float value, Item **head){
+int find(float value, Item **head){
     Item *tmp = *head;
     int position = 0;
 
@@ -65,6 +65,10 @@ Item locate(float value, Item *head){}
 float retrieve(Item *item){}
 
 void insert(Item *item, float value, Item *head){
+    if(item==NULL){
+        return;
+    }
+    
     if (head == NULL) {
         printf("Dany wezel nie moze byc NULLem:");
         return;

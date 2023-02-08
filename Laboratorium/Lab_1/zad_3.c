@@ -34,9 +34,6 @@ int main() {
     printf("wprowadz liczba X(%d)=", i + 1);
     scanf("%f", &x);
     X[i] = x;
-  }
-
-  for (int i = 0; i < n; i++) {
     printf("iteracja %d: x=%.1f a=%.1f ", i + 1, X[i], a);
     y = a * pow(X[i], 2);
     printf("y=%.1f\n", y);

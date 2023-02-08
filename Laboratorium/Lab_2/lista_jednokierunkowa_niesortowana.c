@@ -30,9 +30,9 @@
 
     int size(it *head); //200OK
 
-    it findMax(it *head);
+    int findMax(it **head);
 
-    it findMin(it *head);
+    int findMin(it **head);
 
     void printList(it *head); //200OK
 
@@ -185,12 +185,12 @@
 
         while (current != NULL) {
             if (current->value == value) {
-                prinf("ta wartosc jest w liscie")
+                printf("ta wartosc jest w liscie");
                 return 1;
             }
             current = current->next;
         }
-        prinf("tei wartosc niema w liscie")
+        printf("tei wartosc niema w liscie");
         return 0;
     }  
 
@@ -212,7 +212,7 @@
         it *current;
         current = *head;
         int max = current->value;
-
+ 
         while (current != NULL) {
             if (current->value > max) {
                 max = current->value;
@@ -227,7 +227,7 @@
         current = *head;
         int min = current->value;
         while (current != NULL) {
-            if (current->value < max) {
+            if (current->value < min) {
                 min = current->value;
             }
             current = current->next;
@@ -236,5 +236,5 @@
     }
 
     int retrieve(it *item, it *head){
-        
+
     }

@@ -8,14 +8,14 @@
 typedef struct Item {
     int front, rear, value;
     int *array;
-    unsigned capacity;
+    int capacity;
 }Item;
 
-Item *create(unsigned capacity);
+Item *create(int capacity);
 
 void insert(Item *queue, int item);
 
-void delete(Item *queue);
+int delete(Item *queue);
 
 void main(void) {
     // realizacja
@@ -24,7 +24,7 @@ void main(void) {
 }
 // Funkcii
 
-Item *create(unsigned capacity) {
+Item *create(int capacity) {
     Item *queue = (Item *)malloc(sizeof(Item));
     queue->capacity = capacity;
     queue->front = queue->value = 0;
@@ -43,7 +43,7 @@ void insert(Item *queue, int item){
     printf("%d w kolejce \n", item);
 }
 
-void delete(Item *queue){
+int delete(Item *queue){
     if (queue->value == 0)
         return;
     int item = queue->array[queue->front];

@@ -14,8 +14,6 @@ X(n)
 #include <stdlib.h>
 #include <time.h>
 
-int validate(float);
-
 int main() {
   int n = 0;
   float a = 0, x = 0, y;
