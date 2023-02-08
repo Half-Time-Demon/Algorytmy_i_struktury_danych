@@ -45,27 +45,24 @@ K10:	Zakończ
 
 ## Pseudokod:
 ```
-// Daniel Trojko, Student
-// Algorytm generacji liczb Fibonacciego metodą iteracyjną
-// Data: 20.11.2022
-//-----------------------------
-
-Fib_metoda_iteracyjna( )
+Fib_metoda_iteracyjna(n)
 {
-  n = 0
-  f = 0
   f0 = 0
   f1 = 1
-  wprowadz n
+  
   for( i = 0; i <= n; i++ )
     if( i > 1 )
     {
-      f  = f0 + f1
+      liczba_fib  = f0 + f1
       f0 = f1
-      f1 = f
+      f1 = liczba_fib
     }
-    else f = i
-  return f
+    else
+    { 
+    liczba_fib = i = i
+    }
+    
+  return liczba_fib
 }
 ```
 
@@ -87,15 +84,19 @@ int main( )
   f0 = 0;
   f1 = 1;
   scanf("%d",n);
-  for( i = 0; i <= n; i++ )
+  for( i = 0; i <= n; i++ ){
     if( i > 1 )
     {
       f  = f0 + f1;
       f0 = f1;
       f1 = f;
     }
-    else f = i;
-  printf("%d \n",f);
+    else
+    { 
+      f = i;
+    }
+  }
+  printf("%ull \n",f);
   return 0;
 }
 ```
@@ -119,14 +120,18 @@ int main( )
   f0 = 0;
   f1 = 1;
   cin >> n;
-  for( i = 0; i <= n; i++ )
+  for( i = 0; i <= n; i++ ){
     if( i > 1 )
     {
       f  = f0 + f1;
       f0 = f1;
       f1 = f;
     }
-    else f = i;
+    else
+    {
+      f = i;
+    }
+  }
   cout << f << endl;
   return 0;
 }
