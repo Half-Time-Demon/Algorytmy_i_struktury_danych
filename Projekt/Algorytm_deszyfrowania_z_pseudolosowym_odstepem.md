@@ -199,5 +199,5 @@ Zaruwno w nasze czasy stosuje się deszyfrowania z pseudolosowym odstępem w VPN
 
 ## Źródła i literatura:
 
-[Szyfr Vigenère’a](https://pl.wikipedia.org/wiki/Szyfr_Vigen%C3%A8re%E2%80%99a)
-["Enigma"](https://com.wikipedia.org/wiki/%D0%AD%D0%BD%D0%B8%D0%B3%D0%BC%D0%B0)
+- [Szyfr Vigenère’a](https://pl.wikipedia.org/wiki/Szyfr_Vigen%C3%A8re%E2%80%99a)
+- ["Enigma"](https://com.wikipedia.org/wiki/%D0%AD%D0%BD%D0%B8%D0%B3%D0%BC%D0%B0)
