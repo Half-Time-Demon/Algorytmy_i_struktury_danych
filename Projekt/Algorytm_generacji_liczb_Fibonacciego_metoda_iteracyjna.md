@@ -147,6 +147,6 @@ Ciąg Fibonacciego oraz złota liczba pojawią się w przyrodzie, kosmosie, anat
 
 ## Źródła i literatura:
 
-1.Algorytmy i struktury danych, L. Banachowski, K. Diks, W. Rytter, Wydawnictwa Naukowo - Techniczne, 2006.
-2.Wprowadzenie do algorytmów, Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, Wydawnictwa Naukowo - Techniczne, 2004.
-[Zastosowania ciągu Fibonacciego](https://boringowl.io/blog/ciag-fibonacciego)
+- 1.Algorytmy i struktury danych, L. Banachowski, K. Diks, W. Rytter, Wydawnictwa Naukowo - Techniczne, 2006.
+- 2.Wprowadzenie do algorytmów, Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, Wydawnictwa Naukowo - Techniczne, 2004.
+- [Zastosowania ciągu Fibonacciego](https://boringowl.io/blog/ciag-fibonacciego)
