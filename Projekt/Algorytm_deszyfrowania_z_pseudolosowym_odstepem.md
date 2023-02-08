@@ -20,29 +20,29 @@
 
 ## Wejście:
 
-### X	 – 	klucz, X  ∈ N
-### m, a, c	 –	parametry generatora LCG, m, a, c  ∈ N
-### s	 –	zaszyfrowany łańcuch tekstowy
+X	 – 	klucz, X  ∈ N
+m, a, c	 –	parametry generatora LCG, m, a, c  ∈ N
+s	 –	zaszyfrowany łańcuch tekstowy
 
 ## Wyjście:
 
-### Rozszyfrowany łańcuch s
+Rozszyfrowany łańcuch s
 
 ## Zmienne pomocnicze:
 
 
-### i	 – 	indeks, i  ∈ N
-### kod ( x  )	 –	zwraca kod litery x
-### znak ( x  )	 –	zamienia kod x na odpowiadający mu znak ASCII
+i	 – 	indeks, i  ∈ N
+kod ( x  )	 –	zwraca kod litery x
+znak ( x  )	 –	zamienia kod x na odpowiadający mu znak ASCII
 
 ## Lista kroków:
 
-### K01:	Dla i  = 0, 1, ..., | s | - 1: wykonuj kroki K02...K04	przetwarzamy kolejne znaki łańcucha s
-### K02:	    X ← ( a  × X  + c  ) mod m	obliczamy nową liczbę pseudolosową
-### K03:	    Jeśli ( s [ i  ] < 'A' ) ∨ ( s [ i  ] > 'Z' ), to następny obieg pętli K01,	pomijamy znaki nie będące literami od A do Z
-### K04:	    s [ i ] ← znak ( 65 + ( kod ( s [ i  ] ) - 39 - X  mod 26 ) mod 26 )	rozszyfrowujemy
-### K05:	Pisz s	wyprowadzamy tekst
-### K06:	Zakończ	gotowe
+K01:	Dla i  = 0, 1, ..., | s | - 1: wykonuj kroki K02...K04	przetwarzamy kolejne znaki łańcucha s
+K02:	    X ← ( a  × X  + c  ) mod m	obliczamy nową liczbę pseudolosową
+K03:	    Jeśli ( s [ i  ] < 'A' ) ∨ ( s [ i  ] > 'Z' ), to następny obieg pętli K01,	pomijamy znaki nie będące literami od A do Z
+K04:	    s [ i ] ← znak ( 65 + ( kod ( s [ i  ] ) - 39 - X  mod 26 ) mod 26 )	rozszyfrowujemy
+K05:	Pisz s	wyprowadzamy tekst
+K06:	Zakończ	gotowe
 
 ## Pseudokod:
 ```
@@ -191,14 +191,13 @@ int main( )
 
 ## Dowód:
 
-### Zasada rozszyfrowywania jest prawie identyczna jak przy szyfrowaniu. Jedyna różnica leży we wzorze obliczania kodu znaku z kodu szyfru:
-###
-### ch  = 65 + ( ch  - 39 - X  mod 26 ) mod 26
+Zasada rozszyfrowywania jest prawie identyczna jak przy szyfrowaniu. Jedyna różnica leży we wzorze obliczania kodu znaku z kodu szyfru:
+ch  = 65 + ( ch  - 39 - X  mod 26 ) mod 26
 
-### Program odczytuje kolejno klucz X oraz łańcuch s, który rozszyfrowuje kodem o pseudolosowym odstępie i wypisuje wynik. Parametry generatora LCG są zdefiniowane wewnątrz programu. Zakres kluczy wynosi od 0 do 3956279999.
+Program odczytuje kolejno klucz X oraz łańcuch s, który rozszyfrowuje kodem o pseudolosowym odstępie i wypisuje wynik. Parametry generatora LCG są zdefiniowane wewnątrz programu. Zakres kluczy wynosi od 0 do 3956279999.
 
-### zalóżmy że robimy po koleji 3 razy z nastempujoncymi kluczami "1001,1002,1003" dla szyfrowania np. oto takiego komunikatu:
-### " AAAAAA NIEPRZYJACIEL ZAATAKUJE W NOCY AAAAAA "
+zalóżmy że robimy po koleji 3 razy z nastempujoncymi kluczami "1001,1002,1003" dla szyfrowania np. oto takiego komunikatu:
+" AAAAAA NIEPRZYJACIEL ZAATAKUJE W NOCY AAAAAA "
 
 ## szyfrowanie:
 
@@ -206,9 +205,9 @@ int main( )
 
 ## Przykład używania:
 
-### deszyfrowania z pseudolosowym odstępem było stosowane w drugiej wojnie światowej poniewaz machina ["Enigma"](https://ru.wikipedia.org/wiki/%D0%AD%D0%BD%D0%B8%D0%B3%D0%BC%D0%B0) szyfrowała z psedolosowym odstępem. Aby ukryć odstępy między wyrazami, które pozwalają zidentyfikować słowa, można wpisywać w ich miejsce wybraną literkę (np. X – tak postępowali operatorzy niemieckich maszyn Enigma w czasie II Wojny Światowej ). Wtedy szyfr stanie się jednolitym blokiem liter.
+deszyfrowania z pseudolosowym odstępem było stosowane w drugiej wojnie światowej poniewaz machina ["Enigma"](https://ru.wikipedia.org/wiki/%D0%AD%D0%BD%D0%B8%D0%B3%D0%BC%D0%B0) szyfrowała z psedolosowym odstępem. Aby ukryć odstępy między wyrazami, które pozwalają zidentyfikować słowa, można wpisywać w ich miejsce wybraną literkę (np. X – tak postępowali operatorzy niemieckich maszyn Enigma w czasie II Wojny Światowej ). Wtedy szyfr stanie się jednolitym blokiem liter.
 
-### Zaruwno w nasze czasy stosuje się deszyfrowania z pseudolosowym odstępem w VPN aby odrzyfrowac zaszyfrowane dane. w internecie gdy logujemy się odsyla się zaszyfrowany password do servera i na serweże deszyfruje się aby sprawdzic cz są jedentyczne.
+Zaruwno w nasze czasy stosuje się deszyfrowania z pseudolosowym odstępem w VPN aby odrzyfrowac zaszyfrowane dane. w internecie gdy logujemy się odsyla się zaszyfrowany password do servera i na serweże deszyfruje się aby sprawdzic cz są jedentyczne.
 
 ## Źródła i literatura:
 
