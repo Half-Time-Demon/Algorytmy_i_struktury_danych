@@ -1,8 +1,6 @@
-/*
- * Autor: Daniel Trojko
- * Data: 2023-02-06
- * Opis: Realizacja pseudokodu z cwiczen i algorytmów dopasowania wzorców z wykładu 6
- */
+// Autor: Daniel Trojko, Student
+// Data: 2023-02-06
+// Opis: Realizacja metod sortowania z Wykladu 5
 
 #include "sort.h"
 #include <stdio.h>

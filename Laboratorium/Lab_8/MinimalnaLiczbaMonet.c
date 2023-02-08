@@ -1,8 +1,7 @@
-/*
- * Autor: Daniel Trojko
- * Data: 2023-02-06
- * Opis: Minimalna liczba monet
- */
+// Autor: Daniel Trojko
+// Data: 2023-02-06
+// Minimalna liczba monet
+ 
 
 #include <stdio.h>
 #include <stdlib.h>
