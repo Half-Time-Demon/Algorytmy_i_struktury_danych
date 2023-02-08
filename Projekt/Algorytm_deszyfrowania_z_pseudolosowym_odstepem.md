@@ -51,21 +51,8 @@ K06:	Zakończ	gotowe
 // Data: 20.11.2022
 //-----------------------------
 
-Deszyfrowanie_z_pseudolosowym_odstepem( )
+Deszyfrowanie_z_pseudolosowym_odstepem(s, i, X, a, m, c )
 {
-  implementacja zmienych s, i, X, a, m, c
-
-// definiujemy generator LCG
-
-  m = 3956280000ull
-  a = 1978141ull
-  c = 1309ull
-
-// odczytujemy klucz i szyfr
-
-  wprowadzenie X; cin.ignore ( 256, '\n' )
-  getline ( cin, s )
-
 // deszyfrujemy
 
   for( i = 0; i < s.length( ); i++ )
@@ -78,7 +65,8 @@ Deszyfrowanie_z_pseudolosowym_odstepem( )
 // deszyfrujemy literkę
 
     s [ i ] = toupper ( s [ i ] )
-    if( ( s [ i ] >= 'A' ) && ( s [ i ] <= 'Z' ) ) s [ i ] = 65 + ( s [ i ] - 39 - X % 26 ) % 26
+    if( ( s [ i ] >= 'A' ) && ( s [ i ] <= 'Z' ) ){ 
+      s [ i ] = 65 + ( s [ i ] - 39 - X % 26 ) % 26
   }
 
 // wypisujemy rozszyfrowany tekst
