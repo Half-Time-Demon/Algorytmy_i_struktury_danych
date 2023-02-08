@@ -44,36 +44,41 @@ K09:	Zakończ z wynikiem p
 
 ## Pseudokod:
 ```
-// Daniel Trojko, Student
-// Samoorganizujące się listy
-// Wyszukiwanie z przemieszczaniem
-// Data: 04.08.2012
-//------------------------------
-
 find( v )
 {
-  *p
-
   for( p = head; p; p = p->next ) // w pętli przeszukujemy listę
 
-    if( p->data == v )            // element znaleziony?
-    {
+    if( p->data == v ){            // element znaleziony?
 
       // odłączamy element od listy
 
-      if( p->prev ) p->prev->next = p->next
-      else break
+      if( p->prev ){
+        p->prev->next = p->next
+      }
+      else
+      {
+        break
+      }
 
-      if( p->next ) p->next->prev = p->prev
-      else tail = p->prev
+      if( p->next ){
+        p->next->prev = p->prev
+      else
+      {
+        tail = p->prev
+      }
 
       // umieszczamy go przed poprzednikiem
 
       p->next = p->prev
       p->prev = p->next->prev
       p->next->prev = p
-      if( p->prev ) p->prev->next = p
-      else head = p
+      if( p->prev ){
+        p->prev->next = p
+      }
+      else
+      {
+        head = p
+      }
 
       break
     }
@@ -248,4 +253,4 @@ int main( )
 
 ## Źródła i literatura:
 
-[Algorytm Knutha-Morrisa-Pratta](https://pl.wikipedia.org/wiki/Algorytm_Knutha-Morrisa-Pratta)
+- [Algorytm Knutha-Morrisa-Pratta](https://pl.wikipedia.org/wiki/Algorytm_Knutha-Morrisa-Pratta)
