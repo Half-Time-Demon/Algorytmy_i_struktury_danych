@@ -19,28 +19,28 @@
 
 ## Wejście:
 
-### L	 – 	zmienna obsługująca listę
-### v	 –	poszukiwana wartość
+L	 – 	zmienna obsługująca listę
+v	 –	poszukiwana wartość
 
 ## Wyjście:
 
-### adres znalezionego elementu lub nil, jeśli elementu nie ma na liście. Znaleziony element zostaje przemieszczony na liście o jedną pozycję w kierunku jej początku.
+adres znalezionego elementu lub nil, jeśli elementu nie ma na liście. Znaleziony element zostaje przemieszczony na liście o jedną pozycję w kierunku jej początku.
 
 ## Zmienne pomocnicze:
 
-### p	 – 	wskaźnik elementów listy
+p	 – 	wskaźnik elementów listy
 
 ## Lista kroków:
 
-### K01:	p  ← L.head	przeszukiwanie rozpoczynamy od pierwszego elementu na liście
-### K02:	Jeśli p  = nil, to idź do kroku K09	 
-### K03:	Jeśli ( p→data  ) ≠ v, to idź do kroku K07	sprawdzamy, czy p wskazuje poszukiwany element
-### K04:	Odłącz p  od listy	jeśli tak, to zamieniamy go z poprzedzającym
-### K05:	Wstaw p  przed jego poprzednik	 
-### K06:	Idź do kroku K09	 
-### K07:	p  ← ( p→next  )	przechodzimy do następnego elementu
-### K08:	Idź do kroku K02	i kontynuujemy pętlę
-### K09:	Zakończ z wynikiem p
+K01:	p  ← L.head	przeszukiwanie rozpoczynamy od pierwszego elementu na liście
+K02:	Jeśli p  = nil, to idź do kroku K09	 
+K03:	Jeśli ( p→data  ) ≠ v, to idź do kroku K07	sprawdzamy, czy p wskazuje poszukiwany element
+K04:	Odłącz p  od listy	jeśli tak, to zamieniamy go z poprzedzającym
+K05:	Wstaw p  przed jego poprzednik	 
+K06:	Idź do kroku K09	 
+K07:	p  ← ( p→next  )	przechodzimy do następnego elementu
+K08:	Idź do kroku K02	i kontynuujemy pętlę
+K09:	Zakończ z wynikiem p
 
 ## Pseudokod:
 ```
@@ -244,8 +244,8 @@ int main( )
 
 ## Przykład używania:
 
-### Ten algorytm często wykożystuje się w sztucznej inteligencji i taksamo w ruznych wyszukiwarkach takich jak yandeks,google,youtube.
+ Ten algorytm często wykożystuje się w sztucznej inteligencji i taksamo w ruznych wyszukiwarkach takich jak yandeks,google,youtube.
 
 ## Źródła i literatura:
 
-### [Algorytm Knutha-Morrisa-Pratta](https://pl.wikipedia.org/wiki/Algorytm_Knutha-Morrisa-Pratta)
+[Algorytm Knutha-Morrisa-Pratta](https://pl.wikipedia.org/wiki/Algorytm_Knutha-Morrisa-Pratta)
