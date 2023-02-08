@@ -244,7 +244,7 @@ int main( )
 
 ## Przykład używania:
 
- Ten algorytm często wykożystuje się w sztucznej inteligencji i taksamo w ruznych wyszukiwarkach takich jak yandeks,google,youtube.
+ Ten algorytm często wykożystuje się w sztucznej inteligencji i taksamo w rużnych wyszukiwarkach takich jak yandeks, google, youtube.
 
 ## Źródła i literatura:
 
