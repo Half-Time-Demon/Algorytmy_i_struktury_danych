@@ -6,22 +6,34 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main( )
-{
-  unsigned long long f, f0, f1;
-  int i, n;
 
-  f0 = 0;
-  f1 = 1;
+unsigned long long Fib_metoda_iteracyjna(int n);
+
+
+int main()
+{
+  int n;
+
   scanf("%d",n);
-  for( i = 0; i <= n; i++ )
-    if( i > 1 )
-    {
+  printf("%ull \n",Fib_metoda_iteracyjna(n));
+
+  return 0;
+}
+
+unsigned long long Fib_metoda_iteracyjna(n){
+    unsigned long long f, f0, f1;
+
+    f0 = 0;
+    f1 = 1;
+
+    for(int i = 0; i <= n; i++ ){
+    if( i > 1 ){
       f  = f0 + f1;
       f0 = f1;
       f1 = f;
+    }else{ 
+      f = i;
     }
-    else f = i;
-  printf("%d \n",f);
-  return 0;
+  }
+  return f;
 }
