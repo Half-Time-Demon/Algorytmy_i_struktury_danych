@@ -21,10 +21,7 @@ int main(void)
 }
 
 unsigned long long Fib_metoda_iteracyjna(n){
-    unsigned long long f, f0, f1;
-
-    f0 = 0;
-    f1 = 1;
+    unsigned long long f, f0=0, f1=1;
 
     for(int i = 0; i <= n; i++ ){
     if( i > 1 ){
