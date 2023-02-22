@@ -79,7 +79,6 @@ find( v )
       {
         head = p
       }
-
       break
     }
   return p // zwracamy wynik p
