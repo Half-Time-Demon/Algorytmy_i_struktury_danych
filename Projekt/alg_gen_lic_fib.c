@@ -10,7 +10,7 @@
 unsigned long long Fib_metoda_iteracyjna(int n);
 
 
-int main()
+int main(void)
 {
   int n;
 
