@@ -82,6 +82,12 @@ Deszyfrowanie_z_pseudolosowym_odstepem(s, X, a, m, c )
 // Data: 20.11.2022
 //-----------------------------
 
+// definiujemy generator LCG
+#define m 3956280000
+#define a 1978141
+#define  c 1309
+#define mas 256
+
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -89,15 +95,9 @@ Deszyfrowanie_z_pseudolosowym_odstepem(s, X, a, m, c )
 
 int main(void)
 {
-  char s[256];
+  char s[mas];
   int i;
-  unsigned long long X, a, m, c;
-
-// definiujemy generator LCG
-
-  m = 3956280000ull;
-  a = 1978141ull;
-  c = 1309ull;
+  unsigned long long X;
 
 // odczytujemy klucz i szyfr
 
@@ -133,6 +133,12 @@ int main(void)
 // Data: 20.11.2022
 //-----------------------------
 
+// definiujemy generator LCG
+#define m 3956280000
+#define a 1978141
+#define  c 1309
+#define mas 256
+
 #include <iostream>
 #include <string>
 
@@ -142,17 +148,11 @@ int main( )
 {
   string s;
   int i;
-  unsigned long long X, a, m, c;
-
-// definiujemy generator LCG
-
-  m = 3956280000ull;
-  a = 1978141ull;
-  c = 1309ull;
+  unsigned long long X;
 
 // odczytujemy klucz i szyfr
 
-  cin >> X; cin.ignore ( 256, '\n' );
+  cin >> X; cin.ignore ( mas, '\n' );
   getline ( cin, s );
 
 // deszyfrujemy
