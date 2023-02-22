@@ -51,7 +51,7 @@ K06:	Zakończ	gotowe
 // Data: 20.11.2022
 //-----------------------------
 
-Deszyfrowanie_z_pseudolosowym_odstepem(s, i, X, a, m, c )
+Deszyfrowanie_z_pseudolosowym_odstepem(s, X, a, m, c )
 {
 // deszyfrujemy
 
