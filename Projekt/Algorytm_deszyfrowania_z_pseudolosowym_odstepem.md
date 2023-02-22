@@ -87,7 +87,7 @@ Deszyfrowanie_z_pseudolosowym_odstepem(s, X, a, m, c )
 #include <stdlib.h>
 #include <string.h>
 
-int main( )
+int main(void)
 {
   char s[256];
   int i;
